@@ -1,5 +1,49 @@
-nav.class{
-    background-color: azure;
-    margin:20px;
-    padding:20px;
+body {
+    padding-top: 45px;
+    font-family: Helvetica, sans-serif;
+    margin:0;
+}
+
+h1 {
+    
+    margin:15px;
+}
+
+p {
+    margin:15px;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightslategrey;
+    list-style-type: none; /*makes the thing not have bullets*/
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+li {
+    
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    
+    background-color: darkslategray;
+}
+
+.active {
+    background-color: black;
 }
