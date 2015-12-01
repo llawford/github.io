@@ -1,16 +1,14 @@
 body {
     padding-top: 45px;
     font-family: Helvetica, sans-serif;
-    margin:0;
+    margin-left:0;
 }
 
-h1 {
-    
+#content {
     margin:15px;
 }
 
 p {
-    margin:15px;
     font-family: Helvetica, sans-serif;
 }
 
