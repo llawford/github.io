@@ -14,7 +14,7 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
-ul {
+nav ul {
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,13 +25,13 @@ ul {
     overflow: hidden;
 }
 
-li {
+nav li {
     
     display: inline;
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: whitesmoke;
     text-align: center;
