@@ -18,6 +18,13 @@ body {
     align-items: stretch;
 }
 
+#wrapper-vert {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: stretch;
+}
+
 .sidebar {
     width:20%;
     float:left;
