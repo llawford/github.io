@@ -1,11 +1,104 @@
+html{height:100%
+}
 body {
-    padding-top: 45px;
     font-family: Helvetica, sans-serif;
     margin-left:0;
+    margin-top: 0;
+    height:100%;
+    width:100%;
+    background-color: white;
 }
 
-#content {
-    margin:15px;
+.sidebar {
+    width:20%;
+    float:left;
+    height:inherit;
+    background-color: #BFD8BD;
+}
+
+.sidebar h1 {
+    margin:25px;
+    text-align: center;
+}
+
+.sidebar p {
+    margin:40px;
+    text-align: center;
+}
+
+.sidebar img {
+    border-radius:50%;
+    width:50%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.content {
+    width:80%;
+    float:left;
+}
+
+.desc {
+    width:100%;
+    float: center; 
+}
+
+.desc h1{
+    color: #5D737E;
+    margin:25px;
+    text-align: center;
+}
+.desc p{
+    margin:25px;
+    text-align: center;
+}
+
+
+p,h1,h2,ul{
+    margin-left:50px;
+}
+
+.bookCol{
+    height:100%;
+    display: block;
+    float:left;
+}
+
+#bc1,#bc3{width:33%;}
+#bc2{width:33%;}
+
+.bookCol h2 {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-left:0;
+    margin-right:0;
+}
+
+.bookCol h3 {
+    font-size: 15   px;
+    text-align: center;
+    margin-left:0;
+    margin-right:0;
+}
+
+.bookCol p{
+    font-size: 14px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bookCol img{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    display: block;
+}
+
+.imgcircle{
+    border-radius:50%;
 }
 
 p {
@@ -13,27 +106,23 @@ p {
 }
 
 nav ul {
-    position: fixed;
+    
     top: 0;
     width: 100%;
-    background-color: lightslategrey;
+    background-color: #77bfa3;
     list-style-type: none; /*makes the thing not have bullets*/
     margin:0;
     padding:0;
     overflow: hidden;
-}
-
-nav li {
-    
-    display: inline;
-    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 nav li a {
     display: block;
     color: whitesmoke;
     text-align: center;
-    padding: 15px 50px;
+    padding: 15px 55px;
     text-decoration: none;
 }
 
