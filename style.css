@@ -106,13 +106,116 @@ p,h1,h2,ul{
     margin-right: 100px;
 }
 
-.bookCol img{
+.bookCol > img{
     margin-left:auto;
     margin-right:auto;
     width:50%;
     display: block;
 }
 
+.cover{
+    position: relative;
+    display: block;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cov{
+    width:62.5%;
+    height:auto;
+    display:block;
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.badge{
+    position: absolute;
+    top:25%;
+    right:8%;
+    width:25%;
+}
+
+.projCol{
+    height: 100%;
+    display: block;
+    float: left;
+    min-width: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+#pc1,#pc2,#pc3{width: 33%;}
+
+.projCol h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-left:0;
+    margin-right:0;
+}
+
+.projCol p{
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+.projCol h4{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    margin-left:0;
+    margin-right:0;
+}
+
+.appimg{
+    max-width: 144px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#appimgSmall{
+    max-width: 144px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#meimg{
+    width:10%;
+    max-width:300px;
+    border-radius:50%;
+    width:50%;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#idx{
+    text-align: center;
+    
+}
+
+#idx p,#idx h1{
+    margin-right: 0;
+    margin-left: 0;
+}
+.appgallery{
+    height:200px;
+    
+}
+
+.appgallery img{
+    max-height: 200px;
+    width: 49%;
+    display: inline;
+    margin:auto;
+}
 .imgcircle{
     border-radius:50%;
 }
